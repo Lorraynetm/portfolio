@@ -5,16 +5,15 @@ function Hero() {
   return (
     <section
       id="home"
-      className="bg-gradient-to-b from-gray-900 to-gray-950 w-full min-h-screen flex items-center">
-      <div className=" ml-20 mr-auto w-full grid md:grid-cols-[1fr_1.5fr] items-center gap-16 px-6">
+      className="bg-gradient-to-b from-gray-900 to-gray-950 w-full min-h-screen flex items-center overflow-hidden">
+      <div className="md:ml-20 mr-auto w-full grid md:grid-cols-[1fr_1.5fr] items-center gap-8 md:gap-16 px-6">
         
-       
         <div>
           <p className="text-3xl md:text-5xl font-bold text-purple-400">
             Olá, eu sou
           </p>
 
-          <h1 className="pb-4 text-4xl md:text-7xl font-bold text-purple-400 whitespace-nowrap">
+          <h1 className="pb-4 text-4xl md:text-7xl font-bold text-purple-400 md:whitespace-nowrap">
             Lorrayne Tavares
           </h1>
 
@@ -58,7 +57,7 @@ function Hero() {
         </div>
 
       
-        <div className="flex ml-25">
+        <div className="flex  md:ml-25">
           <img
             src="/images/developer.png"
             alt="Ilustração de Desenvolvedora"
