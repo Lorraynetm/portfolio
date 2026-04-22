@@ -58,13 +58,13 @@ function Hero() {
         </div>
 
       
-        <div className="flex">
+        <div className="flex ml-25">
           <img
             src="/images/developer.png"
             alt="Ilustração de Desenvolvedora"
             className="
               w-full 
-              max-w-[900px]
+              max-w-[800px]
               object-contain
               drop-shadow-[0_0_40px_rgba(168,85,247,0.35)]"/>
         </div>
